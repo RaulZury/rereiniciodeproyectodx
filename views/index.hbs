@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">DSLR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about">Acerca de</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron">
+  <h1>Bienvenido a {{title}}</h1>
+  <p>Un sitio donde pordrás encontrar y contribuir a modelos de Camaras DSLR</p>
+</div>
+<div id="post">
+<h1>Alta de Dispositivo</h1>
+<form action="/" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="marca">Marca</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Marca">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="modelo">Modelo</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Modelo">
+    </div>
+  </div>
+  <div class="form-group col-md-2">
+    <label for="año">Año</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Año">
+  </div>
+    <div class="form-group col-md-2">
+      <label for="id">id</label>
+      <input type="text" class="form-control" id="id">
+    </div>
+      <button type="submit" value= "Guardar" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
+</div>
